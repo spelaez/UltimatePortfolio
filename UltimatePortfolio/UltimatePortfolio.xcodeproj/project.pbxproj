@@ -21,6 +21,8 @@
 		FB756D9D26446EF0008F515F /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB756D9C26446EF0008F515F /* EditItemView.swift */; };
 		FB756D9F26447611008F515F /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB756D9E26447611008F515F /* ItemRowView.swift */; };
 		FB756DA126447A89008F515F /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB756DA026447A89008F515F /* Binding-OnChange.swift */; };
+		FB756DA32644A4A4008F515F /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB756DA22644A4A4008F515F /* ProjectHeaderView.swift */; };
+		FB756DA52644A726008F515F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB756DA42644A726008F515F /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		FB756D9C26446EF0008F515F /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		FB756D9E26447611008F515F /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		FB756DA026447A89008F515F /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
+		FB756DA22644A4A4008F515F /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		FB756DA42644A726008F515F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				FB756D9C26446EF0008F515F /* EditItemView.swift */,
+				FB756DA22644A4A4008F515F /* ProjectHeaderView.swift */,
 				FB756DA026447A89008F515F /* Binding-OnChange.swift */,
 				FB64D73D264097E3005381E7 /* HomeView.swift */,
 				FB64D7402640984D005381E7 /* ProjectsView.swift */,
@@ -86,6 +91,7 @@
 				FB704748263C4201005175F4 /* Main.xcdatamodeld */,
 				FB70474C263C44B9005175F4 /* DataController.swift */,
 				FB6C268E263B041A00129F46 /* Assets.xcassets */,
+				FB756DA42644A726008F515F /* Colors.xcassets */,
 				FB6C2693263B041A00129F46 /* Info.plist */,
 				FB6C2690263B041A00129F46 /* Preview Content */,
 				FB4AF8652641DF9E00AF16D8 /* Item-CoreDataHelpers.swift */,
@@ -167,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB756DA52644A726008F515F /* Colors.xcassets in Resources */,
 				FB6C2692263B041A00129F46 /* Preview Assets.xcassets in Resources */,
 				FB6C268F263B041A00129F46 /* Assets.xcassets in Resources */,
 			);
@@ -180,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB64D7412640984D005381E7 /* ProjectsView.swift in Sources */,
+				FB756DA32644A4A4008F515F /* ProjectHeaderView.swift in Sources */,
 				FB70474A263C4201005175F4 /* Main.xcdatamodeld in Sources */,
 				FB4AF8692641E05700AF16D8 /* Project-CoreDataHelpers.swift in Sources */,
 				FB70474D263C44B9005175F4 /* DataController.swift in Sources */,
