@@ -18,6 +18,8 @@
 		FB70474A263C4201005175F4 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB704748263C4201005175F4 /* Main.xcdatamodeld */; };
 		FB70474D263C44B9005175F4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70474C263C44B9005175F4 /* DataController.swift */; };
 		FB704755263C6E4A005175F4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB704754263C6E4A005175F4 /* CloudKit.framework */; };
+		FB756D9D26446EF0008F515F /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB756D9C26446EF0008F515F /* EditItemView.swift */; };
+		FB756D9F26447611008F515F /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB756D9E26447611008F515F /* ItemRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		FB70474C263C44B9005175F4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		FB704751263C6E33005175F4 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
 		FB704754263C6E4A005175F4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		FB756D9C26446EF0008F515F /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		FB756D9E26447611008F515F /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +73,10 @@
 		FB6C2689263B041800129F46 /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				FB756D9C26446EF0008F515F /* EditItemView.swift */,
 				FB64D73D264097E3005381E7 /* HomeView.swift */,
 				FB64D7402640984D005381E7 /* ProjectsView.swift */,
+				FB756D9E26447611008F515F /* ItemRowView.swift */,
 				FB704751263C6E33005175F4 /* UltimatePortfolio.entitlements */,
 				FB6C268A263B041800129F46 /* UltimatePortfolioApp.swift */,
 				FB6C268C263B041800129F46 /* ContentView.swift */,
@@ -174,10 +180,12 @@
 				FB70474A263C4201005175F4 /* Main.xcdatamodeld in Sources */,
 				FB4AF8692641E05700AF16D8 /* Project-CoreDataHelpers.swift in Sources */,
 				FB70474D263C44B9005175F4 /* DataController.swift in Sources */,
+				FB756D9F26447611008F515F /* ItemRowView.swift in Sources */,
 				FB6C268D263B041800129F46 /* ContentView.swift in Sources */,
 				FB64D73E264097E3005381E7 /* HomeView.swift in Sources */,
 				FB6C268B263B041800129F46 /* UltimatePortfolioApp.swift in Sources */,
 				FB4AF8662641DF9E00AF16D8 /* Item-CoreDataHelpers.swift in Sources */,
+				FB756D9D26446EF0008F515F /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
