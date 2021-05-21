@@ -25,6 +25,7 @@
 		FB756DA52644A726008F515F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB756DA42644A726008F515F /* Colors.xcassets */; };
 		FB756DA72645AFBF008F515F /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB756DA62645AFBF008F515F /* EditProjectView.swift */; };
 		FB84C9F3264F174A00365AAB /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84C9F2264F174A00365AAB /* Sequence-Sorting.swift */; };
+		FB99A7AE2656F4300022A612 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB99A7AD2656F4300022A612 /* SelectSomethingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		FB756DA42644A726008F515F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		FB756DA62645AFBF008F515F /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		FB84C9F2264F174A00365AAB /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
+		FB99A7AD2656F4300022A612 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		FB6C2689263B041800129F46 /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				FB99A7AD2656F4300022A612 /* SelectSomethingView.swift */,
 				FB756D9C26446EF0008F515F /* EditItemView.swift */,
 				FB756DA22644A4A4008F515F /* ProjectHeaderView.swift */,
 				FB756DA62645AFBF008F515F /* EditProjectView.swift */,
@@ -198,6 +201,7 @@
 				FB4AF8692641E05700AF16D8 /* Project-CoreDataHelpers.swift in Sources */,
 				FB756DA72645AFBF008F515F /* EditProjectView.swift in Sources */,
 				FB70474D263C44B9005175F4 /* DataController.swift in Sources */,
+				FB99A7AE2656F4300022A612 /* SelectSomethingView.swift in Sources */,
 				FB756D9F26447611008F515F /* ItemRowView.swift in Sources */,
 				FB6C268D263B041800129F46 /* ContentView.swift in Sources */,
 				FB756DA126447A89008F515F /* Binding-OnChange.swift in Sources */,
