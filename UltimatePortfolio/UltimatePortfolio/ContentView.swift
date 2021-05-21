@@ -32,6 +32,13 @@ struct ContentView: View {
                     Image(systemName: "checkmark")
                     Text("Closed")
                 }
+            
+            AwardsView()
+                .tag(AwardsView.tag)
+                .tabItem {
+                    Image(systemName: "rosette")
+                    Text("Awards")
+                }
         }
     }
 }
@@ -41,7 +48,6 @@ struct ContentView_Previews: PreviewProvider {
     
     static var previews: some View {
         ContentView()
-            .preferredColorScheme(.dark)
             .environment(\.managedObjectContext, dataController.container.viewContext)
             .environmentObject(dataController)
     }
