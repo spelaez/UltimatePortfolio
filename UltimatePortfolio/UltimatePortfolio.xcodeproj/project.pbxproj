@@ -359,12 +359,12 @@
 				DEVELOPMENT_TEAM = DFD5YE8GEL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorillalogic.UltimatePortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spelaez.UltimatePortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -382,12 +382,12 @@
 				DEVELOPMENT_TEAM = 6DPB83DYGN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorillalogic.UltimatePortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spelaez.UltimatePortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
