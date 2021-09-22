@@ -13,7 +13,7 @@ struct AwardsView: View {
     @EnvironmentObject var dataController: DataController
     @State private var selectedAward = Award.example
     @State private var showingAwardDetails = false
-    @State private var alertTitle: String = "Locked"
+    @State private var alertTitle: LocalizedStringKey = "Locked"
     
     var columns: [GridItem] {
         [GridItem(.adaptive(minimum: 100, maximum: 100))]
